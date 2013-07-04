@@ -225,7 +225,7 @@
       <file leaf-file-name="GitHelp.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GitHelp.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="55" selection-start="466" selection-end="466" vertical-scroll-proportion="0.375">
+            <state line="1" column="9" selection-start="42" selection-end="90" vertical-scroll-proportion="0.03125">
               <folding />
             </state>
           </provider>
@@ -974,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GitHelp.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="466" selection-end="466" vertical-scroll-proportion="0.375">
+        <state line="1" column="9" selection-start="42" selection-end="90" vertical-scroll-proportion="0.03125">
           <folding />
         </state>
       </provider>
