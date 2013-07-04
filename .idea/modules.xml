@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GenerateScripts.iml" filepath="$PROJECT_DIR$/GenerateScripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JMaven/JMaven.iml" filepath="$PROJECT_DIR$/../JMaven/JMaven.iml" />
+    </modules>
+  </component>
+</project>
+
