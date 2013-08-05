@@ -51,7 +51,7 @@ public class MetaDataDB {
             resultSetShowTables = stmtShowTables.executeQuery(queryShowTables);
             while (resultSetShowTables.next()) {
                 MetaTable table = new MetaTable();
-                table.name =  (resultSetShowTables.getString(1)).trim().toUpperCase();
+                table.name = dataBaseType==DataBaseType.ORACLE? (resultSetShowTables.getString(1)).trim().toUpperCase():(resultSetShowTables.getString(1)).trim();
                 lTables.add(table);
             }
         } finally {

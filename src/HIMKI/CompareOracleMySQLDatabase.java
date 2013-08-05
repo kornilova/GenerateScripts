@@ -20,12 +20,19 @@ public class CompareOracleMySQLDatabase {
         int schoolId=7;
         String driverName = "com.mysql.jdbc.Driver";
         Class.forName(driverName);
-
+        /*
         String serverNameMySQL = "192.168.1.98:3306";
         String dataBaseMySQL = "school"+schoolId;
         String urlMySQL = "jdbc:mysql://" + serverNameMySQL + "/" + dataBaseMySQL;
         String usernameMySQL = "root";
         String passwordMySQL = "";
+        */
+        String serverNameMySQL = "192.168.1.103:3306";
+        String dataBaseMySQL = "school"+schoolId;
+        String urlMySQL = "jdbc:mysql://" + serverNameMySQL + "/" + dataBaseMySQL;
+        String usernameMySQL = "user";
+        String passwordMySQL = "himki";
+
         MetaDataDB metaDataDBdMySQL = null;
         try {
             metaDataDBdMySQL = new MetaDataDB(DriverManager.getConnection(urlMySQL, usernameMySQL, passwordMySQL), DataBaseType.MYSQL, String.valueOf(schoolId));

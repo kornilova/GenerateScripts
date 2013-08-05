@@ -36,8 +36,8 @@ public class CreateFileForFirstLoad {
 
         for(int i=1; i<=10001;i++)
         {
-            msgNumber=startPartMsgNumber + BankAccountMessageFile_SBC.stringWithLength(String.valueOf(i), '7', 6);
-            accountNumber=startPartAccountNumber + BankAccountMessageFile_SBC.stringWithLength(String.valueOf(i), '0', 6);
+            msgNumber=startPartMsgNumber + BankAccountMessage.stringWithLength(String.valueOf(i), '7', 6);
+            accountNumber=startPartAccountNumber + BankAccountMessage.stringWithLength(String.valueOf(i), '0', 6);
             str="<res insOgrn=\"5500000001506\" insInn=\"4444444605\" insKpp=\"444444448\" insName=\"ÎÎÎ Èäåíòèôèêàöèÿ506\" resNum=\""+ accountNumber +"\" bRegNum=\"481\" bBic=\"046027283\" bOgrn=\"1022300003021\" bName= \"ÐÎÑÒÔÈÍÀÍÑ\" messNum=\""+ msgNumber +",100\" messType=\"1\" openDate=\"27.05.2013\"/>";
             stringBuilder.append(str+"\n");
         }

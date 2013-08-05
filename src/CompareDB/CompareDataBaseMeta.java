@@ -53,7 +53,7 @@ public class CompareDataBaseMeta {
             for (MetaTable metaTableMySQL : mySQL.lTables) {
                 isTblExists = false;
                 for (MetaTable metaTableOracle : oracle.lTables) {
-                    if (metaTableOracle.name.equals(metaTableMySQL.name)) {
+                    if (metaTableOracle.name.toUpperCase().equals(metaTableMySQL.name.toUpperCase())) {
                         isTblExists = true;
                         //2. Если таблицу нашли, сверим количество колонок в ней
                         builder.append(delimiter).

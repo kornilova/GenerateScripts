@@ -4,6 +4,9 @@ import Database.DB2Connection;
 import java.io.IOException;
 import java.sql.*;
 import java.util.*;
+import FBS.BankAccountMessage;
+
+import static FBS.BankAccountMessage.stringWithLength;
 
 /**
  * User: nkornilova
@@ -67,14 +70,6 @@ public class BankAccountMessageFile_SBC {
         }
     }
 
-    /*Составление строки. Пример: 123 (длина 5) => 00123 */
-    public static String stringWithLength(String inputString, char symbol, int fullStringLength) {
-        String outputString = inputString;
-        for (int i = inputString.length(); i < fullStringLength; i++) {
-            outputString = symbol + outputString;
-        }
-        return outputString;
-    }
 
     private static String getPartNumberFromMessTypeMessKind(String typeKind)
     {
