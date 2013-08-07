@@ -10,7 +10,7 @@ public class BankAccountMessage {
     private static String pathToNewDirectory = "C:\\Users\\nkornilova\\Desktop\\Info\\Testing\\FBS2\\AccountMessages\\";
 
     public static void generateSBCFile(String startPartMsgNumber, String startPartAccountNumber,
-                                       String fileName, String typeMessage, int count) throws IOException {
+                                       String fileName, String typeMessage, int count, String partToPath) throws IOException {
 
         File file = new File(new File(".").getCanonicalPath() + "\\src\\FBS\\Files\\SBC\\", fileName);
         String partFileName = fileName.substring(0, 26);
@@ -23,7 +23,7 @@ public class BankAccountMessage {
                 newAccountNumber = startPartAccountNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 10));
                 newMessNumberInFile = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "," + secondPartMsgNumber;
                 newFileName = partFileName + newMessNumberInFileName + ".TXT";
-                File newFile = new File(pathToNewDirectory + newFileName);
+                File newFile = new File(pathToNewDirectory + partToPath + "\\" + newFileName);
                 replaceSubstringInFile(newMessNumberInFile, newAccountNumber, file, newFile, typeMessage);
             }
 
@@ -32,7 +32,7 @@ public class BankAccountMessage {
         }
     }
 
-    public static void generateSBFFile(String startPartMsgNumber, String typeMessage, String constPartOfMessage, int count) throws IOException {
+    public static void generateSBFFile(String startPartMsgNumber, String typeMessage, String constPartOfMessage, int count, String partToPath) throws IOException {
 
         File file = new File(new File(".").getCanonicalPath() + "\\src\\FBS\\Files\\SBF\\", "SBF.txt");
         String partFileName = "SBF"+typeMessage+constPartOfMessage;
@@ -44,7 +44,7 @@ public class BankAccountMessage {
                 newMessNumberInFileName = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "_" + secondPartMsgNumber;
                 newMessNumberInFile = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "," + secondPartMsgNumber;
                 newFileName = partFileName + newMessNumberInFileName + ".TXT";
-                File newFile = new File(pathToNewDirectory + newFileName);
+                File newFile = new File(pathToNewDirectory + partToPath + "\\" + newFileName);
                 replaceSubstringInFile(newMessNumberInFile, null, file, newFile, null);
             }
 
