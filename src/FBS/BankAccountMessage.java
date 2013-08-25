@@ -7,7 +7,7 @@ import java.io.*;
 public class BankAccountMessage {
 
     private static String encoding866 = "cp866";
-    private static String pathToNewDirectory = "C:\\Users\\nkornilova\\Desktop\\Info\\Testing\\FBS2\\AccountMessages\\";
+    private static String pathToNewDirectory = "C:\\Users\\nkornilova\\Desktop\\Info\\Testing\\FBS2\\AccountMessages_2mln\\";
 
     public static void generateSBCFile(String startPartMsgNumber, String startPartAccountNumber,
                                        String fileName, String typeMessage, int count, String partToPath) throws IOException {

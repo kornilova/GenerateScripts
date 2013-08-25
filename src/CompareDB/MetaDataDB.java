@@ -15,7 +15,7 @@ public class MetaDataDB {
 
     private String queryShowTables;
     private String  schoolId;
-    private Connection connection;
+    public Connection connection;
     private DataBaseType dataBaseType;
     public List<MetaTable> lTables = new ArrayList<MetaTable>();
 

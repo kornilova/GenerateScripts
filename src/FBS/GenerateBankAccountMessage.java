@@ -1,7 +1,6 @@
 package FBS;
 
 import java.io.IOException;
-
 import static FBS.BankAccountMessage.generateSBCFile;
 import static FBS.BankAccountMessage.generateSBFFile;
 
@@ -43,7 +42,7 @@ public class GenerateBankAccountMessage {
     private static String pathToSBF23 = "SBF23";
 
     public static void main(String[] args) throws ClassNotFoundException{
-        int countSBCF  = 10000;
+        int countSBCF  = 220000;
         try {
             //Сообщения
             //Об открытии
@@ -61,6 +60,7 @@ public class GenerateBankAccountMessage {
 
             //Квитанции о принятии
             generateSBF("01",countSBCF);
+
             generateSBF("02",countSBCF);
             generateSBF("03",countSBCF);
 
@@ -77,15 +77,21 @@ public class GenerateBankAccountMessage {
         }
     }
 
+    private void zipFolder(String path)
+    {
+
+    }
 
     private static void generateSBC(String messType, int count) throws IOException {
         generateSBCFile(startPartMsgNumber, startPartAccountNumber,
                 getSBCFileName(messType),
                 messType, count, getSBCPartOfPath(messType));
+        System.out.print("Already is generated SBC files for types " + messType + ". Count "+count);
     }
 
     private static void generateSBF(String messType, int count) throws IOException {
         generateSBFFile(startPartMsgNumber, messType, constPartOfMessage, count, getSBFPartOfPath(messType));
+        System.out.print("Already is generated SBF files for types " + messType + ". Count "+count);
     }
 
 

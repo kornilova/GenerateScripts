@@ -17,48 +17,49 @@ import java.sql.*;
 public class CompareOracleMySQLDatabase {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
-        int schoolId=7;
+
+        int schoolId = 78;
+
         String driverName = "com.mysql.jdbc.Driver";
         Class.forName(driverName);
-        /*
+
         String serverNameMySQL = "192.168.1.98:3306";
-        String dataBaseMySQL = "school"+schoolId;
+        String dataBaseMySQL = "school" + schoolId;
         String urlMySQL = "jdbc:mysql://" + serverNameMySQL + "/" + dataBaseMySQL;
         String usernameMySQL = "root";
         String passwordMySQL = "";
-        */
-        String serverNameMySQL = "192.168.1.103:3306";
+
+        /*String serverNameMySQL = "192.168.1.103:3306";
         String dataBaseMySQL = "school"+schoolId;
         String urlMySQL = "jdbc:mysql://" + serverNameMySQL + "/" + dataBaseMySQL;
         String usernameMySQL = "user";
-        String passwordMySQL = "himki";
+        String passwordMySQL = "himki";*/
 
         MetaDataDB metaDataDBdMySQL = null;
-        try {
-            metaDataDBdMySQL = new MetaDataDB(DriverManager.getConnection(urlMySQL, usernameMySQL, passwordMySQL), DataBaseType.MYSQL, String.valueOf(schoolId));
-            metaDataDBdMySQL.getMetadata();
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        } finally {
-            if (metaDataDBdMySQL != null) metaDataDBdMySQL.closeConnection();
-        }
 
+        //Oracle
         DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
-
         String usernameOracle = "HIMKI_MOU_TST";
         String passwordOracle = "HIMKI_MOU_TST";
         MetaDataDB metaDataDBOracle = null;
+
         try {
+            metaDataDBdMySQL = new MetaDataDB(DriverManager.getConnection(urlMySQL, usernameMySQL, passwordMySQL), DataBaseType.MYSQL, String.valueOf(schoolId));
+            metaDataDBdMySQL.getMetadata();
+
+
             metaDataDBOracle = new MetaDataDB(DriverManager.getConnection("jdbc:oracle:thin:@192.168.1.98:1521:himki", usernameOracle, passwordOracle), DataBaseType.ORACLE, String.valueOf(schoolId));
             metaDataDBOracle.getMetadata();
+
+            CompareDataBaseMeta compareDataBaseMeta = new CompareDataBaseMeta(metaDataDBdMySQL, metaDataDBOracle, String.valueOf(schoolId));
+            compareDataBaseMeta.getCompare();
+
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
             if (metaDataDBOracle != null) metaDataDBOracle.closeConnection();
+            if (metaDataDBdMySQL != null) metaDataDBdMySQL.closeConnection();
         }
-
-        CompareDataBaseMeta compareDataBaseMeta = new CompareDataBaseMeta();
-        compareDataBaseMeta.getCompare(metaDataDBdMySQL, metaDataDBOracle);
 
     }
 }
