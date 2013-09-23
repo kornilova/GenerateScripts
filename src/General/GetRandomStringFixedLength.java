@@ -17,7 +17,7 @@ public class GetRandomStringFixedLength {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
 
-        String res = getRandomString(1000);
+        String res = getRandomString(251);
         System.out.println(res);
         System.out.println(res.length());
         CustomClipboard.pushInClipboard(res);

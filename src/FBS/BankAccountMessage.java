@@ -9,12 +9,15 @@ public class BankAccountMessage {
     private static String encoding866 = "cp866";
     private static String pathToNewDirectory = "C:\\Users\\nkornilova\\Desktop\\Info\\Testing\\FBS2\\AccountMessages_2mln\\";
 
-    public static void generateSBCFile(String startPartMsgNumber, String startPartAccountNumber,
-                                       String fileName, String typeMessage, int count, String partToPath) throws IOException {
+    public static void generateSBCFile(String startPartMsgNumber,
+                                       String startPartAccountNumber,
+                                       String sourceFileName,
+                                       String typeMessage,
+                                       int count) throws IOException {
 
-        File file = new File(new File(".").getCanonicalPath() + "\\src\\FBS\\Files\\SBC\\", fileName);
-        String partFileName = fileName.substring(0, 26);
-        String secondPartMsgNumber = fileName.substring(43, 46);
+        File file = new File(new File(".").getCanonicalPath() + "\\src\\FBS\\Files\\SBC\\", sourceFileName);
+        String partFileName = sourceFileName.substring(0, 26);
+        String secondPartMsgNumber = sourceFileName.substring(43, 46);
         String newMessNumberInFile, newMessNumberInFileName, newAccountNumber, newFileName;
         try {
 
@@ -23,7 +26,7 @@ public class BankAccountMessage {
                 newAccountNumber = startPartAccountNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 10));
                 newMessNumberInFile = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "," + secondPartMsgNumber;
                 newFileName = partFileName + newMessNumberInFileName + ".TXT";
-                File newFile = new File(pathToNewDirectory + partToPath + "\\" + newFileName);
+                File newFile = new File(pathToNewDirectory + "SBC"+typeMessage + "\\" + newFileName);
                 replaceSubstringInFile(newMessNumberInFile, newAccountNumber, file, newFile, typeMessage);
             }
 
@@ -32,11 +35,13 @@ public class BankAccountMessage {
         }
     }
 
-    public static void generateSBFFile(String startPartMsgNumber, String typeMessage, String constPartOfMessage, int count, String partToPath) throws IOException {
+    public static void generateSBFFile(String startPartMsgNumber, String sourceFileName,
+                                       String typeMessage,
+                                       int count) throws IOException {
 
         File file = new File(new File(".").getCanonicalPath() + "\\src\\FBS\\Files\\SBF\\", "SBF.txt");
-        String partFileName = "SBF"+typeMessage+constPartOfMessage;
-        String secondPartMsgNumber = getPartNumberFromMessTypeMessKind(typeMessage);
+        String partFileName = sourceFileName.substring(0, 26);
+        String secondPartMsgNumber = sourceFileName.substring(43, 46);
         String newMessNumberInFile, newMessNumberInFileName, newFileName;
         try {
 
@@ -44,17 +49,13 @@ public class BankAccountMessage {
                 newMessNumberInFileName = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "_" + secondPartMsgNumber;
                 newMessNumberInFile = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "," + secondPartMsgNumber;
                 newFileName = partFileName + newMessNumberInFileName + ".TXT";
-                File newFile = new File(pathToNewDirectory + partToPath + "\\" + newFileName);
+                File newFile = new File(pathToNewDirectory + "SBF"+typeMessage + "\\" + newFileName);
                 replaceSubstringInFile(newMessNumberInFile, null, file, newFile, null);
             }
 
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-    }
-
-    public static void generateSBEFile(String startPartMsgNumber, String fileName, int count) throws IOException {
-           //TODO:
     }
 
     public static void replaceSubstringInFile(String mewMsgNumber, String newAccountNumber, File input,
@@ -82,46 +83,4 @@ public class BankAccountMessage {
         }
         return outputString;
     }
-
-    private static String getPartNumberFromMessTypeMessKind(String typeKind)
-    {
-         /*
-                    01 об открытии первичное
-                    02 об открытии корректирующее
-                    03 об открытии отмен€ющее
-                    11 об изменении счета первичное
-                    12 об изменении корректирующее
-                    13 об изменении отмен€ющее
-                    21 о закрытии первичное
-                    22 о закрытии корректирующее
-                    23 о закрытии отмен€ющее
-         */
-        if(typeKind.equals("01") || typeKind.equals("21"))
-        {
-            return "100";
-        }
-        else
-        if(typeKind.equals("02") || typeKind.equals("22"))
-        {
-            return "101";
-        }
-        else if(typeKind.equals("03") || typeKind.equals("23"))
-        {
-            return "177";
-        }
-        else if(typeKind.equals("11"))
-        {
-            return "500";
-        }
-        else if(typeKind.equals("12"))
-        {
-            return "501";
-        }
-        else if(typeKind.equals("13"))
-        {
-            return "177";
-        } else return null;
-
-    }
-
 }
