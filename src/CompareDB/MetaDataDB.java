@@ -52,6 +52,7 @@ public class MetaDataDB {
             while (resultSetShowTables.next()) {
                 MetaTable table = new MetaTable();
                 table.name = dataBaseType==DataBaseType.ORACLE? (resultSetShowTables.getString(1)).trim().toUpperCase():(resultSetShowTables.getString(1)).trim();
+                if(table.name.equals("SETTINGS_MOU")) continue;
                 lTables.add(table);
             }
         } finally {

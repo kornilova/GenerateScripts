@@ -1,12 +1,12 @@
-Открыть GitHubShell - командная строка
-cd C:\Users\nkornilova\IdeaProjects\GenerateScripts
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅ GitHubShell - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+cd C:\IdeaProjects\GenerateScripts
 git init
 git add .
 git commit -m "Next commit in repository"
-Установить ссылку на репозиторий хранения файлов проекта
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 git remote add origin https://github.com/kornilova/GenerateScripts.git (copy URL Repository)
 git pull origin master
 git push origin master
-Установить учётку для GitHub
+пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ GitHub
 git config --global user.name tusnya88
 git config --global user.email tusnya88@gmail.com

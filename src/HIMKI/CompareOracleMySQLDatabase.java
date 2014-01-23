@@ -18,7 +18,7 @@ public class CompareOracleMySQLDatabase {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
 
-        int schoolId = 78;
+        int schoolId = 343;
 
         String driverName = "com.mysql.jdbc.Driver";
         Class.forName(driverName);
@@ -26,8 +26,8 @@ public class CompareOracleMySQLDatabase {
         String serverNameMySQL = "192.168.1.98:3306";
         String dataBaseMySQL = "school" + schoolId;
         String urlMySQL = "jdbc:mysql://" + serverNameMySQL + "/" + dataBaseMySQL;
-        String usernameMySQL = "root";
-        String passwordMySQL = "";
+        String usernameMySQL = "inclass";
+        String passwordMySQL = "inclass";
 
         /*String serverNameMySQL = "192.168.1.103:3306";
         String dataBaseMySQL = "school"+schoolId;

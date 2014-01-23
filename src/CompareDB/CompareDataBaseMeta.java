@@ -31,7 +31,7 @@ public class CompareDataBaseMeta {
 
     public void getCompare() throws IOException {
         Date date = new Date();
-        File fileExport = new File("C:\\Users\\nkornilova\\Desktop\\Info\\Testing\\HIMKI\\CompareStructureDBOracle&&MySQL\\Result_compare_structure_" + date.getTime() + ".txt");
+        File fileExport = new File("C:\\Users\\Nataliya.Gordeeva\\Desktop\\Info\\Testing\\HIMKI\\CompareStructureDBOracle&&MySQL\\Result_compare_structure_" + date.getTime() + ".txt");
 
         if (!fileExport.exists()) {
             fileExport.createNewFile();
@@ -281,7 +281,7 @@ public class CompareDataBaseMeta {
                             isExists = true;
                             if (columnMySQL.dataType.equals(ColumnDataTypeMySQL.TIMESTAMP.toString())) {
                                 if (getValueNullString(resultSetColumnsOracle.getObject(columnOracle.name)).isEmpty()
-                                        && !getValueNullString(resultSetColumnsMySQL.getTimestamp(columnMySQL.name)).isEmpty()) {
+                                        && !getValueNullString(resultSetColumnsMySQL.getObject(columnMySQL.name)).isEmpty()) {
                                     list.add("В " + DataBaseType.ORACLE + " нет значения в " + columnOracle.name);
                                 }
                             } else {

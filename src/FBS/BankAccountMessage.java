@@ -7,8 +7,7 @@ import java.io.*;
 public class BankAccountMessage {
 
     private static String encoding866 = "cp866";
-    private static String pathToNewDirectory = "C:\\Users\\nkornilova\\Desktop\\Info\\Testing\\FBS2\\AccountMessages_2mln\\";
-
+    private static String pathToNewDirectory =  "C:\\Users\\Nataliya.Gordeeva\\Desktop\\Info\\Testing\\FBS2\\Messages_test\\";
     public static void generateSBCFile(String startPartMsgNumber,
                                        String startPartAccountNumber,
                                        String sourceFileName,
@@ -18,16 +17,17 @@ public class BankAccountMessage {
         File file = new File(new File(".").getCanonicalPath() + "\\src\\FBS\\Files\\SBC\\", sourceFileName);
         String partFileName = sourceFileName.substring(0, 26);
         String secondPartMsgNumber = sourceFileName.substring(43, 46);
-        String newMessNumberInFile, newMessNumberInFileName, newAccountNumber, newFileName;
+        String newMessNumberInFile, newMessNumberInFileName, newAccountNumber, oldAccountNumber, newFileName;
         try {
 
             for (int i = 1; i <= count; i++) {
                 newMessNumberInFileName = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "_" + secondPartMsgNumber;
                 newAccountNumber = startPartAccountNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 10));
+                oldAccountNumber = startPartAccountNumber + String.valueOf(stringWithLength(String.valueOf(i-1), '0', 10));
                 newMessNumberInFile = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "," + secondPartMsgNumber;
                 newFileName = partFileName + newMessNumberInFileName + ".TXT";
                 File newFile = new File(pathToNewDirectory + "SBC"+typeMessage + "\\" + newFileName);
-                replaceSubstringInFile(newMessNumberInFile, newAccountNumber, file, newFile, typeMessage);
+                replaceSubstringInFile(newMessNumberInFile, newAccountNumber, oldAccountNumber, file, newFile, typeMessage);
             }
 
         } catch (IOException ex) {
@@ -50,7 +50,7 @@ public class BankAccountMessage {
                 newMessNumberInFile = startPartMsgNumber + String.valueOf(stringWithLength(String.valueOf(i), '0', 6)) + "," + secondPartMsgNumber;
                 newFileName = partFileName + newMessNumberInFileName + ".TXT";
                 File newFile = new File(pathToNewDirectory + "SBF"+typeMessage + "\\" + newFileName);
-                replaceSubstringInFile(newMessNumberInFile, null, file, newFile, null);
+                replaceSubstringInFile(newMessNumberInFile, null, null, file, newFile, null);
             }
 
         } catch (IOException ex) {
@@ -58,17 +58,22 @@ public class BankAccountMessage {
         }
     }
 
-    public static void replaceSubstringInFile(String mewMsgNumber, String newAccountNumber, File input,
+    public static void replaceSubstringInFile(String mewMsgNumber, String newAccountNumber, String oldAccountNumber, File input,
                                               File output, String typeMessage)
             throws IOException {
 
+        String wordAccountNumber = "ÍîìÑ÷:";
+        String wordNewAccountNumber = "ÍîìÈçìÑ÷:";
+        String wordOldAccountNumber="ÍîìÑ÷Ñòàð:";
+
+        boolean isChangedMess= typeMessage!=null && (typeMessage=="11"||typeMessage=="12"||typeMessage=="13");
         for (String line : FileUtils.readLines(input, encoding866)) {
-            String wordAccountNumber = "ÍîìÑ÷:";
-            if(typeMessage!=null && (typeMessage=="11"||typeMessage=="12"||typeMessage=="13"))
-                wordAccountNumber = "ÍîìÈçìÑ÷:";
+
             FileUtils.write(output,
                     (mewMsgNumber!=null && line.contains("ÍîìÑîîá:") ? ("ÍîìÑîîá:" + mewMsgNumber) :
-                    newAccountNumber!=null && line.contains(wordAccountNumber) ? wordAccountNumber + newAccountNumber : line) + "\r\n",
+                            !isChangedMess && newAccountNumber!=null && line.contains(wordAccountNumber) ? (wordAccountNumber + newAccountNumber):
+                            isChangedMess && newAccountNumber!=null && line.contains(wordNewAccountNumber) ? (wordNewAccountNumber + newAccountNumber)
+                            : isChangedMess && oldAccountNumber!=null && line.contains(wordOldAccountNumber) ? (wordOldAccountNumber + oldAccountNumber) : line) + "\r\n",
                     encoding866, true);
         }
 
