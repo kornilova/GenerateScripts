@@ -72,14 +72,14 @@ public class BankAccountMessage {
             FileUtils.write(output,
                     (mewMsgNumber!=null && line.contains("НомСооб:") ? ("НомСооб:" + mewMsgNumber) :
                             !isChangedMess && newAccountNumber!=null && line.contains(wordAccountNumber) ? (wordAccountNumber + newAccountNumber):
-                            isChangedMess && newAccountNumber!=null && line.contains(wordNewAccountNumber) ? (wordNewAccountNumber + newAccountNumber)
-                            : isChangedMess && oldAccountNumber!=null && line.contains(wordOldAccountNumber) ? (wordOldAccountNumber + oldAccountNumber) : line) + "\r\n",
+                                    isChangedMess && newAccountNumber!=null && line.contains(wordNewAccountNumber) ? (wordNewAccountNumber + newAccountNumber)
+                                            : isChangedMess && oldAccountNumber!=null && line.contains(wordOldAccountNumber) ? (wordOldAccountNumber + oldAccountNumber) : line) + "\r\n",
                     encoding866, true);
         }
 
     }
 
-    /*Составление строки. Пример: 123 (длина 5) => 00123 */
+
     public static String stringWithLength(String inputString, char symbol, int fullStringLength) {
 
         String outputString = inputString;

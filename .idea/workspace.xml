@@ -7,7 +7,7 @@
     <file path="/Connection.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1355911594033" ignored="false" />
     <file path="/DB2Connection.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383137857180" ignored="false" />
     <file path="/Main_1.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1365495630467" ignored="false" />
-    <file path="/fragment.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383226686538" ignored="false" />
+    <file path="/fragment.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1390484017628" ignored="false" />
     <file path="/File.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1365495572483" ignored="false" />
     <file path="/UtFile.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1356688750017" ignored="false" />
     <file path="/Main_2.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1356774607637" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="/ColumnDataTypeG.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1362570893270" ignored="false" />
     <file path="/ExampleTest.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1362579605989" ignored="false" />
     <file path="$USER_HOME$/Desktop/Dump/Selenium/WebTesting/src/com/web/tests/ExampleTest.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1362579605989" ignored="false" />
-    <file path="/Dummy.txt" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383224756989" ignored="false" />
+    <file path="/Dummy.txt" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1390481511528" ignored="false" />
     <file path="$USER_HOME$/Desktop/Dump/Selenium/WebTesting/src/com/web/tests/BeforeRunBase.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1362574977198" ignored="false" />
     <file path="/BeforeRunBase.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1362579427678" ignored="false" />
     <file path="$USER_HOME$/Desktop/Dump/Selenium/WebTesting/src/com/web/tests/BeforeClass.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1362574467829" ignored="false" />
@@ -59,7 +59,6 @@
     <file path="$PROJECT_DIR$/../Test_Selenium_Maven/test-selenium-maven/Help.txt" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1367931788263" ignored="false" />
     <file path="$PROJECT_DIR$/../Test_Selenium_Maven/test-selenium-maven/src/test/java/estyle/auto/nkornilova/PaperAccountMessage.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1367932608296" ignored="false" />
     <file path="$PROJECT_DIR$/../Test_Selenium_Maven/test-selenium-maven/src/main/resources/application.properties" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1367932608675" ignored="false" />
-    <file path="C:/Program Files/Java/jdk1.6.0_26/src.zip!/java/lang/String.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1367932608296" ignored="false" />
     <file path="$M2_REPO$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/Invoker.class" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1367932608296" ignored="false" />
     <file path="$M2_REPO$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/TestMethodWorker.class" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1367932608296" ignored="false" />
     <file path="$PROJECT_DIR$/../Test_Selenium_Maven/test-selenium-maven/src/main/java/estyle/auto/nkornilova/pages/InsurerFilterPage.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1367932612844" ignored="false" />
@@ -86,7 +85,7 @@
     <file path="D:/ASV/Testing/Autotests/asv-testing/src/test/java/com/estylesoft/asv/se/model/Message.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1373975089767" ignored="false" />
     <file path="/CompareOracleMySQLDatabase.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1376381972516" ignored="false" />
     <file path="/GetGuid.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1375444982020" ignored="false" />
-    <file path="/BankAccountMessage.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1390468599164" ignored="false" />
+    <file path="/BankAccountMessage.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1390483249732" ignored="false" />
     <file path="/BankAccountMessageFile_SBC.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1375688744940" ignored="false" />
     <file path="/GenerateBankAccountMessage.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1382426673612" ignored="false" />
     <file path="/GetAllFileCombinations.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1378985536044" ignored="false" />
@@ -157,7 +156,7 @@
     <file path="/IntegrationTester.java" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383223545267" ignored="false" />
     <file path="$PROJECT_DIR$/../Integration/src/my_batis.xml" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383222683398" ignored="false" />
     <file path="$PROJECT_DIR$/../Integration/build.xml" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383224561960" ignored="false" />
-    <file path="/build.xml" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383224561960" ignored="false" />
+    <file path="/build.xml" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1390566035747" ignored="false" />
     <file path="/fragment.js2" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383224397450" ignored="false" />
     <file path="$PROJECT_DIR$/../Integration/src/META-INF/MANIFEST.TXT" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383224685975" ignored="false" />
     <file path="/MANIFEST.TXT" changelist="f264b130-4955-467e-af6f-1b38faf4363e" time="1383224685975" ignored="false" />
@@ -183,7 +182,23 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/FBS/BankAccountMessage.java" line="68" class="FBS.BankAccountMessage" package="FBS">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -218,7 +233,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -228,46 +242,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SBF.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBF/SBF.txt">
+      <file leaf-file-name="BankAccountMessage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FBS/BankAccountMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+            <state line="73" column="48" selection-start="4008" selection-end="4008" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerateBankAccountMessage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FBS/GenerateBankAccountMessage.java">
+      <file leaf-file-name="CreateDatabaseScript.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FBS/CreateDatabaseScript.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="23" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GitHelp.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GitHelp.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="34" selection-start="73" selection-end="73" vertical-scroll-proportion="0.029462738">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SBC111012762_011120130603_0000000000000000_100.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC111012762_011120130603_0000000000000000_100.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="18" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SBC121012762_011120130603_0000000000000000_101.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC121012762_011120130603_0000000000000000_101.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="10" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+            <state line="16" column="30" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -282,10 +269,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccountMessage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FBS/BankAccountMessage.java">
+      <file leaf-file-name="FindErrorsInFileForFirstLoad.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FBS/FindErrorsInFileForFirstLoad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="100" selection-start="4478" selection-end="4478" vertical-scroll-proportion="0.0">
+            <state line="15" column="36" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompareOracleMySQLDatabase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HIMKI/CompareOracleMySQLDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="46" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="41" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GitHelp.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GitHelp.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="4" selection-start="83" selection-end="92" vertical-scroll-proportion="0.0867347">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorUser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FBS/GeneratorUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="72" selection-start="534" selection-end="556" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetAllFileCombinations.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FBS/GetAllFileCombinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="30" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -310,21 +342,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/IntegrationFBSPTKS/MetaPTKSTable.java" />
-        <option value="$PROJECT_DIR$/src/IntegrationFBSPTKS/CompareIntegrationData.java" />
-        <option value="$PROJECT_DIR$/src/General/GetRandomStringFixedLength.java" />
+        <option value="$PROJECT_DIR$/src/FBS/Files/SBF/SBF.txt" />
+        <option value="$PROJECT_DIR$/src/FBS/GenerateBankAccountMessage.java" />
         <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC011012762_011120130603_0000000000000000_100.txt" />
         <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC021012762_011120130603_0000000000000000_101.txt" />
         <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC031012762_011120130603_0000000000000000_177.txt" />
+        <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC111012762_011120130603_0000000000000000_100.txt" />
+        <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC121012762_011120130603_0000000000000000_101.txt" />
         <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC131012762_011120130603_0000000000000000_177.txt" />
         <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC211012762_011120130603_0000000000000000_100.txt" />
         <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC221012762_011120130603_0000000000000000_101.txt" />
         <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC231012762_011120130603_0000000000000000_177.txt" />
-        <option value="$PROJECT_DIR$/src/FBS/Files/SBF/SBF.txt" />
-        <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC121012762_011120130603_0000000000000000_101.txt" />
-        <option value="$PROJECT_DIR$/src/FBS/Files/SBC/SBC111012762_011120130603_0000000000000000_100.txt" />
+        <option value="$PROJECT_DIR$/src/FBS/CreateDatabaseScript.java" />
+        <option value="$PROJECT_DIR$/src/HIMKI/CompareOracleMySQLDatabase.java" />
         <option value="$PROJECT_DIR$/src/FBS/BankAccountMessage.java" />
-        <option value="$PROJECT_DIR$/src/FBS/GenerateBankAccountMessage.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/GitHelp.txt" />
       </list>
     </option>
@@ -412,6 +444,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -430,30 +463,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simplefan.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GenerateScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GenerateScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="GenerateScripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -471,22 +480,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GenerateScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GenerateScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IntegrationFBSPTKS" />
+              <option name="myItemId" value="Utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,37 +623,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GenerateScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GenerateScripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="C:/commons-io-2.4/commons-io-2.4.jar!/" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="GenerateBankAccountMessage" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\GenerateScripts" />
       <recent name="C:\IdeaProjects\GenerateScripts\src\FBS\Files\SBC" />
       <recent name="C:\Users\nkornilova\IdeaProjects\GenerateScripts\src\FBS\Files\SBC" />
     </key>
@@ -707,7 +723,7 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="FBS.GenerateBankAccountMessage" />
-      <option name="VM_PARAMETERS" value="-server -ea -Xms1024m -Xmx1024m" />
+      <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -735,11 +751,11 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="FBS.GetAllFileCombinations" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -763,11 +779,11 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="General.GetRandomStringFixedLength" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -785,11 +801,11 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="IntegrationFBSPTKS.CompareIntegrationResultMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -972,24 +988,24 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30558857" sideWeight="0.52764225" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16338259" sideWeight="0.8109091" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30545455" sideWeight="0.52764225" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27942926" sideWeight="0.46666667" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.69322234" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41022593" sideWeight="0.44489464" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18909091" sideWeight="0.44489464" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35632184" sideWeight="0.7818182" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21818182" sideWeight="0.71707314" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29638752" sideWeight="0.8109091" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21818182" sideWeight="0.71707314" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17835909" sideWeight="0.47730955" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17818181" sideWeight="0.47730955" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1052,67 +1068,77 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <antCommandLine value="" />
+      <runInBackground value="true" />
+      <targetFilters>
+        <filter targetName="jarGenerateBankAccountMessage" isVisible="false" />
+        <filter targetName="buildGenerateBankAccountMessage" isVisible="false" />
+        <filter targetName="clean" isVisible="false" />
+        <filter targetName="GenerateBankAccountMessage" isVisible="false" />
+        <filter targetName="compile" isVisible="false" />
+      </targetFilters>
+      <treeView value="true" />
+      <verbose value="true" />
+      <viewClosedWhenNoErrors value="false" />
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/General/GetRandomStringFixedLength.java">
+    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC131012762_011120130603_0000000000000000_177.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC031012762_011120130603_0000000000000000_177.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="66" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC231012762_011120130603_0000000000000000_177.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="65" selection-start="813" selection-end="813" vertical-scroll-proportion="0.9748252">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC221012762_011120130603_0000000000000000_101.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="62" selection-start="813" selection-end="813" vertical-scroll-proportion="0.9748252">
-          <folding />
-        </state>
+        <state line="41" column="98" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC231012762_011120130603_0000000000000000_177.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="178" selection-end="178" vertical-scroll-proportion="0.1528777" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC211012762_011120130603_0000000000000000_100.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="65" selection-start="813" selection-end="813" vertical-scroll-proportion="0.9470109">
+        <state line="41" column="97" selection-start="813" selection-end="813" vertical-scroll-proportion="0.7642981" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC121012762_011120130603_0000000000000000_101.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.8294314" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC031012762_011120130603_0000000000000000_177.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.8352181" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HIMKI/CompareOracleMySQLDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="46" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC131012762_011120130603_0000000000000000_177.txt">
+    <entry file="file://$PROJECT_DIR$/src/FBS/BankAccountMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="66" selection-start="704" selection-end="704" vertical-scroll-proportion="0.9008152">
+        <state line="73" column="48" selection-start="4008" selection-end="4008" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC021012762_011120130603_0000000000000000_101.txt">
+    <entry file="file://$PROJECT_DIR$/src/FBS/GeneratorUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="72" selection-start="534" selection-end="556" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC011012762_011120130603_0000000000000000_100.txt">
+    <entry file="file://$PROJECT_DIR$/src/FBS/GetAllFileCombinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBF/SBF.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+        <state line="23" column="30" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1124,6 +1150,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FBS/CreateDatabaseScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FBS/CreateFileForFirstLoad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
@@ -1131,37 +1164,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC121012762_011120130603_0000000000000000_101.txt">
+    <entry file="file://$PROJECT_DIR$/src/FBS/FindErrorsInFileForFirstLoad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+        <state line="15" column="36" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC111012762_011120130603_0000000000000000_100.txt">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/BankAccountMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="100" selection-start="4478" selection-end="4478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FBS/GenerateBankAccountMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="23" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0">
+        <state line="55" column="41" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GitHelp.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="34" selection-start="73" selection-end="73" vertical-scroll-proportion="0.029462738">
+        <state line="3" column="4" selection-start="83" selection-end="92" vertical-scroll-proportion="0.0867347">
           <folding />
         </state>
       </provider>
@@ -1218,7 +1237,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JMaven</last-edited>
+          <last-edited>GenerateScripts</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

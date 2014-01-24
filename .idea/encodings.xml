@@ -3,25 +3,16 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/src/FBS/BankAccountMessage.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC011012762_011120130603_0000000000000000_100.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC011012762_011120130604_0000000000000000_100.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC021012762_011120130603_0000000000000000_101.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC021012762_011120130604_0000000000000000_101.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC031012762_011120130603_0000000000000000_177.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC031012762_011120130604_0000000000000000_177.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC111012762_011120130603_0000000000000000_100.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC111012762_011120130604_0000000000000000_500.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC121012762_011120130603_0000000000000000_101.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC121012762_011120130604_0000000000000000_501.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC131012762_011120130603_0000000000000000_177.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC131012762_011120130604_0000000000000000_177.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC211012762_011120130603_0000000000000000_100.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC211012762_011120130604_0000000000000000_100.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC221012762_011120130603_0000000000000000_101.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC221012762_011120130604_0000000000000000_101.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC231012762_011120130603_0000000000000000_177.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/Files/SBC/SBC231012762_011120130604_0000000000000000_177.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/src/FBS/Files/SBF/SBF.txt" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/FBS/GenerateBankAccountMessage.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/FBS/GenerateBankAccountMessage.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/HIMKI/CompareOracleMySQLDatabase.java" charset="windows-1251" />
   </component>
 </project>

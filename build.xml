@@ -1,0 +1,56 @@
+<project name="TestScript" basedir="." default="buildGenerateBankAccountMessage">
+
+    <property name="src.dir"     value="src"/>
+
+    <property name="target.dir"   value="target"/>
+    <property name="classes.dir" value="${target.dir}/classes"/>
+    <property name="jar.dir"     value="${target.dir}/jar"/>
+    <property name="lib.dir" value="libs"/>
+
+    <property name="MainClassGenerateBankAccountMessage"  value="FBS.GenerateBankAccountMessage"/>
+
+
+    <path id="project.class.path">
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+        </fileset>
+        <pathelement path="${classes.dir}"/>
+    </path>
+
+    <target name="clean">
+        <delete dir="${target.dir}"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" encoding="Windows-1251" includeantruntime="false">
+            <classpath refid="project.class.path"/>
+        </javac>
+        <copy todir="${jar.dir}">
+            <fileset dir="${lib.dir}">
+                <include name="*.jar"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="jarGenerateBankAccountMessage" depends="compile">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.dir}/GenerateBankAccountMessage.jar" basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${MainClassGenerateBankAccountMessage}"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="GenerateBankAccountMessage" depends="jarGenerateBankAccountMessage">
+        <java fork="true" classname="${MainClassGenerateBankAccountMessage}">
+            <classpath>
+                <path refid="project.class.path"/>
+                <path location="{jar.dir}/GenerateBankAccountMessage.jar"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="buildGenerateBankAccountMessage" depends="clean,jarGenerateBankAccountMessage"/>
+
+</project>

@@ -16,21 +16,21 @@ public class GenerateBankAccountMessage {
     public static void main(String[] args) throws ClassNotFoundException{
         int countSBCF  = 2;
         try {
-            //Сообщения
-            //Об открытии
+            //РЎРѕРѕР±С‰РµРЅРёСЏ
+            //РћР± РѕС‚РєСЂС‹С‚РёРё
             generateSBC(typeMessage[0],countSBCF);
             generateSBC(typeMessage[1],countSBCF);
             generateSBC(typeMessage[2],countSBCF);
-            //Об изменении
+            //РћР± РёР·РјРµРЅРµРЅРёРё
             generateSBC(typeMessage[3],countSBCF);
             generateSBC(typeMessage[4],countSBCF);
             generateSBC(typeMessage[5],countSBCF);
-            //О закрытии
+            //Рћ Р·Р°РєСЂС‹С‚РёРё
             generateSBC(typeMessage[6],countSBCF);
             generateSBC(typeMessage[7],countSBCF);
             generateSBC(typeMessage[8],countSBCF);
 
-            //Квитанции о принятии
+            //РљРІРёС‚Р°РЅС†РёРё Рѕ РїСЂРёРЅСЏС‚РёРё
             generateSBF(typeMessage[0],countSBCF);
 
             generateSBF(typeMessage[1],countSBCF);

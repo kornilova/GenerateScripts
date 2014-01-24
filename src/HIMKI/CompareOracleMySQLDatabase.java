@@ -3,6 +3,8 @@ package HIMKI;
 import CompareDB.CompareDataBaseMeta;
 import CompareDB.DataBaseType;
 import CompareDB.MetaDataDB;
+import oracle.jdbc.driver.OracleDriver;
+
 
 import java.io.IOException;
 import java.sql.*;
@@ -38,7 +40,7 @@ public class CompareOracleMySQLDatabase {
         MetaDataDB metaDataDBdMySQL = null;
 
         //Oracle
-        DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
+        DriverManager.registerDriver(new OracleDriver());
         String usernameOracle = "HIMKI_MOU_TST";
         String passwordOracle = "HIMKI_MOU_TST";
         MetaDataDB metaDataDBOracle = null;
